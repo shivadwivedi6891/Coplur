@@ -4,30 +4,30 @@ using namespace std;
 // Base Logger class 
 class Logger {
 public:
-    virtual void log(string message) {
-        cout << "Log " << message << endl;
+    virtual void log() {
+        cout << "Log " << endl;
     }
 };
 
 // Derived logger classes
 class DatabaseLogger : public Logger {
 public:
-    void log(string message) override {
-        cout << "Log written to Database " << message << endl;
+    void log( ) override {
+        cout << "Log written to Database "  << endl;
     }
 };
 
 class FileLogger : public Logger {
 public:
-    void log(string message) override {
-        cout << "Log written to File " << message << endl;
+    void log() override {
+        cout << "Log written to File "  << endl;
     }
 };
 
 class CloudLogger : public Logger {
 public:
-    void log(string message) override {
-        cout << "Log written to Cloud " << message << endl;
+    void log() override {
+        cout << "Log written to Cloud " << endl;
     }
 };
 
@@ -37,9 +37,9 @@ int main() {
     FileLogger fileLogger;
     CloudLogger cloudLogger;
 
-    dbLogger.log("Database log ");
-    fileLogger.log("File log ");
-    cloudLogger.log("Cloud log ");
+    dbLogger.log();
+    fileLogger.log();
+    cloudLogger.log();
 
     return 0;
 }
