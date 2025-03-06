@@ -13,12 +13,12 @@ class Student {
     string Course;
     int Age;
 
-    Student(string name,int rollnumber,string course,int age){
+    Student(string Name,int RollNumber,string Course,int Age){
 
-        Name=name;
-        RollNumber=rollnumber;
-        Course=course;
-        Age=age;
+       this-> Name=Name;
+       this-> RollNumber=RollNumber;
+       this-> Course=Course;
+       this-> Age=Age;
 
     }
      
