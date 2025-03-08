@@ -35,9 +35,9 @@ int main() {
     cout << "Enter the Log type : ";
     cin >> userLog;
 
-    ILogger* log = nullptr; // 
+    ILogger* log = nullptr; 
 
-    // Step 4: Assign correct logger
+   
     if (userLog == "Database") {
         log = new DatabaseLogger();
     } else if (userLog == "File") {
