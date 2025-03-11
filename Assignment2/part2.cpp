@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Step 1: Define an Interface
+
 class ILogger {
 public:
     virtual void Log() = 0; // Pure virtual function
@@ -35,9 +35,9 @@ int main() {
     cout << "Enter the Log type : ";
     cin >> userLog;
 
-    ILogger* log = nullptr; 
+    ILogger* log = nullptr; // 
 
-   
+    // Step 4: Assign correct logger
     if (userLog == "Database") {
         log = new DatabaseLogger();
     } else if (userLog == "File") {
@@ -51,7 +51,7 @@ int main() {
         log->Log();
         delete log; 
     } else {
-        cout << "Invalid Log Type!" << endl;
+        cout << "Invalid Log Type" << endl;
     }
 
 
