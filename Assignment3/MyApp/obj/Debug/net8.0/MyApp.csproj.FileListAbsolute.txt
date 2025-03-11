@@ -1,0 +1,15 @@
+E:\Assignment\Assignment3\MyApp\bin\Debug\net8.0\MyApp.exe
+E:\Assignment\Assignment3\MyApp\bin\Debug\net8.0\MyApp.deps.json
+E:\Assignment\Assignment3\MyApp\bin\Debug\net8.0\MyApp.runtimeconfig.json
+E:\Assignment\Assignment3\MyApp\bin\Debug\net8.0\MyApp.dll
+E:\Assignment\Assignment3\MyApp\bin\Debug\net8.0\MyApp.pdb
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfoInputs.cache
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfo.cs
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.csproj.CoreCompileInputs.cache
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.sourcelink.json
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.dll
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\refint\MyApp.dll
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.pdb
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\MyApp.genruntimeconfig.cache
+E:\Assignment\Assignment3\MyApp\obj\Debug\net8.0\ref\MyApp.dll
