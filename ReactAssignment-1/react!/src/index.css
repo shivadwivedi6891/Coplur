@@ -1,0 +1,18 @@
+/* Make sure body and html take full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Root container uses flex layout */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main area takes remaining space */
+.main-content {
+  flex: 1;
+}
