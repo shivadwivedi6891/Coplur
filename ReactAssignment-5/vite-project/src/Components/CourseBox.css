@@ -1,0 +1,10 @@
+.Box{
+     width: 10rem;
+     height: 8rem;
+     padding: 2.4rem;
+     display: flex;
+     flex-direction: column;
+    
+     background-color: rgb(194, 134, 193);
+   
+}
